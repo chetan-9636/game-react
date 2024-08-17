@@ -1,0 +1,49 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('https://img.freepik.com/free-vector/gradient-beautiful-landscape_23-2149122376.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.game-container {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background: linear-gradient(180deg, rgba(10, 24, 61, 0.8), rgba(34, 89, 109, 0.8), rgba(105, 145, 184, 0.8)); /* Mimicking the gradient from the background image */
+    border-radius: 15px;
+    color: white; /* Ensures text is readable against the gradient background */
+}
+
+.choices {
+    margin: 20px;
+}
+
+.choices button {
+    margin: 5px;
+    padding: 20px;
+    font-size: 32px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid #333;
+    transition: transform 0.2s;
+}
+
+.choices button:hover {
+    transform: scale(1.2);
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.result p {
+    font-size: 18px;
+    margin: 5px;
+}
+
+.result h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
